@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-style: italic; 
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background-color: #333; 
+    color: green;  
+    font-size: 16px;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    overflow-x: hidden; 
+    position: relative; 
+    
+  }
+  
+  
+  img {
+    filter: blur(8px); 
+    transition: filter 0.3s ease; 
+  }
+  
+ 
+  img:hover {
+    filter: blur(0); 
+  }
+  
+  .music-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .youtube-player, .spotify-player {
+    margin: 10px 0;
+  }
+  
+  html::before {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: -1; 
+  }
+  
+  header {
+    background-color: #000;
+    color: green; 
+    padding: 10px 20px;
+    width: 100%;
+    position: sticky;
+    top: 0; 
+    z-index: 1000; 
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: green; 
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+  }
+  
+  .profile-section {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-bottom: 20px;
+  }
+  
+  .profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile-header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-gif {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+  }
+  
+  .posts-section {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .posts-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .post-content {
+    display: flex; 
+    align-items: flex-start; 
+  }
+  
+  .other-content {
+    display: flex; 
+    align-items: flex-start; 
+  }
+    
+  
+  .text-content {
+    max-width: 70%; 
+  }
+  
+  .small-image {
+    width: 100%; 
+    max-width: 200px; 
+    height: auto; 
+    margin-top: 10px; 
+    border-radius: 5px; 
+  }
+  
+  .post2 {
+    background-color: black; 
+    color: green; 
+    border: 2px solid #444; 
+    padding: 15px;
+    margin: 20px; 
+    max-width: 600px; 
+    border-radius: 8px; 
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  
+  .movie-recommendations {
+    background-color: black; 
+    color: green; 
+    padding: 15px; 
+    border: 2px solid #444; 
+    border-radius: 5px;
+    margin: 40px 0; 
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .text-content {
+    margin-top: 10px; 
+  }
+  
+  .medium-image {
+    max-width: 150px; 
+    margin-right: 15px; 
+    border-radius: 8px; 
+  }
+  
+  .text-content {
+    margin-left: 15px; 
+    max-width: 70%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: #000;
+    color: green; 
+  }
+  
+  .comment-section {
+    margin-top: 20px;
+  }
+  
+  .comment-section h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  .comments-list {
+    margin-bottom: 10px;
+  }
+  
+  .comment {
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+  }
+  
+  .comment p {
+    margin: 0;
+  }
+  
+  .comment-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #333;
+    color: green; 
+    border: 1px solid #444;
+    border-radius: 4px;
+  }
+  
+  .comment-form button {
+    padding: 8px 15px;
+    background-color: #555;
+    color: green; 
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comment-form button:hover {
+    background-color: #666;
+  }
+  

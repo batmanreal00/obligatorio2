@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    background-color: #333;
+    color: #f0b8d5; 
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('https://64.media.tumblr.com/a2d937c6144268af4d0e8da448c495fe/4d00ac6b33cec795-20/s1280x1920/534b6a96917ba33f7300521121655bf661d5fd78.pnj');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: relative;
+    cursor: url('https://64.media.tumblr.com/e4f46a743cb2db750953a8c4bbfb6206/b6e6cff3b40d7cef-4c/s100x200/6584e09d75255602afae923910ff9c994ab28ca6.pnj'), auto;
+  } 
+  
+  
+  .navbar {
+    background-color: #222;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #f0b8d5;
+    text-transform: uppercase;
+    font-style: italic;
+    display: inline-block;
+  }
+  
+  .navbar nav {
+    float: right;
+    font-size: 1.2em;
+  }
+  
+  .navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .navbar nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  .navbar nav ul li a {
+    text-decoration: none;
+    color: #f0b8d5;
+    transition: color 0.3s ease;
+    font-style: italic;
+  }
+  
+  .navbar nav ul li a:hover {
+    color: #ffffff;
+  }
+  
+  body {
+    padding-top: 80px; 
+  }
+  
+  /* Profile Section Styles */
+  .profile-section {
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    text-align: center;
+  }
+  
+  .profile-header h1 {
+    font-size: 3em;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #f0b8d5;
+  }
+  
+  .profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+  }
+  
+  .profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #666;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .profile-info {
+    margin-top: 20px;
+    color: #f0b8d5;
+  }
+  
+  .profile-info h2 {
+    font-size: 2em;
+    font-style: italic;
+  }
+  
+  .profile-info .bio {
+    font-style: italic;
+    font-size: 1.1em;
+    margin-top: 10px;
+  }
+  
+  .favorite-games, .favorite-movies {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #f0b8d5;
+    font-style: italic;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    color: #f0b8d5;
+    margin-bottom: 5px;
+    font-style: italic;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: #000;
+    color: #f0b8d5;
+  }
+  

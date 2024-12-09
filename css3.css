@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background-color: #333;
+    color: #66cc66; 
+    font-size: 16px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: url('https://64.media.tumblr.com/3d3e2ac28501c6c9b738f5baa28e3b39/841dd17dee2aa2a6-eb/s1280x1920/c402fc1df90aada66ded55b2faf3bbf75d1851e5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    position: relative;
+    
+}
+
+
+.navbar {
+    background-color: #222;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.navbar .logo {
+    font-size: 2em;
+    font-weight: bold;
+    color: #66cc66;
+    text-transform: uppercase;
+    font-style: italic;
+    display: inline-block;
+}
+.navbar nav {
+    float: right;
+    font-size: 1.2em;
+}
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.navbar nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #66cc66;
+    transition: color 0.3s ease;
+    font-style: italic;
+}
+.navbar nav ul li a:hover {
+    color: #ffffff;
+}
+body {
+    padding-top: 80px; 
+}
+
+
+.contact-form-section {
+    width: 80%;
+    max-width: 1000px;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.contact-form-section h1 {
+    font-size: 3em;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #66cc66;
+}
+
+
+.contact-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.form-field {
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.form-field label {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #66cc66;
+    margin-bottom: 5px;
+}
+.form-field input, .form-field textarea {
+    background-color: #222;
+    border: 2px solid #666;
+    color: #66cc66;
+    font-size: 1.1em;
+    padding: 10px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+.form-field input:focus, .form-field textarea:focus {
+    border-color: #66cc66;
+    outline: none;
+}
+
+/* Submit Button */
+.contact-form .submit-btn {
+    background-color: #66cc66;
+    color: #222;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    font-style: italic;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+.contact-form .submit-btn:hover {
+    background-color: #55a855;
+}
+
+
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: #000;
+    color: #66cc66;
+}
